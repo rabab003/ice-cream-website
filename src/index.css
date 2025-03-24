@@ -49,3 +49,7 @@
 .header-btn {
   @apply rounded-3xl h-[48px] w-[150px] bg-white text-red-600 hover:bg-red-400 hover:text-white;
 }
+
+section {
+  @apply w-full px-[12%] py-[80px] flex flex-col;
+}
