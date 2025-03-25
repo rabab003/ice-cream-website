@@ -53,3 +53,10 @@
 section {
   @apply w-full px-[12%] py-[80px] flex flex-col;
 }
+#section_heading {
+  @apply text-center text-5xl w-full font-semibold inline-block font-Kalnia;
+}
+
+.slide_text {
+  @apply text-center w-full text-base font-semibold hidden group-hover:inline-block;
+}
