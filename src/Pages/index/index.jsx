@@ -38,6 +38,7 @@ export default function index() {
           <img src={elemnt2} alt="" className='w-[80px] h-[80px] absolute -top-[-20%] lg:left-[90%] left-[65%] hidden sm:flex' />
           <img src={elemnt3} alt="" className='w-[90px] h-[90px] absolute -top-[-10%] left-5' />
           <img src={elemnt4} alt="" className='w-[90px] h-[90px] absolute -top-[-85%] sm:-top-[-85%] lg:left-[85%] left-[-75%]' />
+          
         </div>
     </div>
 
@@ -146,16 +147,37 @@ export default function index() {
         </section>
 
         {/* stoped here  */}
-        <section>
+        <section className='flex gap-[10px] flex-wrap lg:flex-nowrap'>
           <div className=''>
-            <div className=''>
+            <div className='w-full sm:w-[46%] lg:w-[33%] h-[550px] bg-[url(../../assets/How to Create Website in Tailwind css/h3_bn-2.jpg)] bg-cover p-6 flex flex-col items-center pt-15 gap-2 text-white'>
               <small>save 20% off</small>
               <h3>summer 2025</h3>
-              <p>smooth & refreshing , int</p>
+              <p>smooth & refreshing , Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, laborum?</p>
               <button>shop now <i className='ri-arrow-right-line'></i> </button>
             </div>
-            <div className=''></div>
-            <div className=''></div>
+            <div className='w-full sm:w-[46%] lg:w-[33%] h-[550px] bg-[url(../../assets/How to Create Website in Tailwind css/h3_bn-2.jpg)] bg-cover p-6 flex flex-col items-center pt-15 gap-2 text-white'>
+              <small>save 20% off</small>
+              <h3>summer 2025</h3>
+              <p>smooth & refreshing , Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, laborum?</p>
+              <button>shop now <i className='ri-arrow-right-line'></i> </button>
+            </div>
+            <div className='w-full sm:w-[46%] lg:w-[33%] h-[550px] bg-[url(../../assets/How to Create Website in Tailwind css/h3_bn-2.jpg)] bg-cover p-6 flex flex-col items-center pt-15 gap-2 text-white'>
+          
+          
+c            <div className='h-[250px] w-full bg-[url(../../assets/How to Create Website in Tailwind css/h3_bn-2.jpg)] text-white bg-cover flex flex-col pt-4 gap-2'>
+              <h3 className='text-3xl'>best selling</h3>
+              <p className='pt-20'>smooth & creamy <br /> Lorem, ipsum dolor. </p> 
+            </div>
+          
+            <div className='h-[250px] w-full bg-[url(../../assets/How to Create Website in Tailwind css/h3_bn-2.jpg)] text-white bg-cover flex flex-col pt-4 gap-2'>
+            <h3 className='text-3xl'>best selling</h3>
+              <p className='pt-20'>smooth & creamy <br /> Lorem, ipsum dolor. </p> 
+            </div>
+
+
+
+            </div>
+
           </div>
 
         </section>
