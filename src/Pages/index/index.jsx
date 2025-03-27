@@ -146,14 +146,13 @@ export default function index() {
 
         </section>
 
-        {/* stoped here  */}
         <section className='flex gap-[10px] flex-wrap lg:flex-nowrap'>
           <div className=''>
             <div className='w-full sm:w-[46%] lg:w-[33%] h-[550px] bg-[url(../../assets/How to Create Website in Tailwind css/h3_bn-2.jpg)] bg-cover p-6 flex flex-col items-center pt-15 gap-2 text-white'>
-              <small>save 20% off</small>
+              <small className='text-2xl'>save 20% off</small>
               <h3>summer 2025</h3>
-              <p>smooth & refreshing , Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, laborum?</p>
-              <button>shop now <i className='ri-arrow-right-line'></i> </button>
+              <p className='text-center'>smooth & refreshing , Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, laborum?</p>
+              <button  className='btn headerbtn'>shop now <i className='ri-arrow-right-line'></i> </button>
             </div>
             <div className='w-full sm:w-[46%] lg:w-[33%] h-[550px] bg-[url(../../assets/How to Create Website in Tailwind css/h3_bn-2.jpg)] bg-cover p-6 flex flex-col items-center pt-15 gap-2 text-white'>
               <small>save 20% off</small>
@@ -164,7 +163,7 @@ export default function index() {
             <div className='w-full sm:w-[46%] lg:w-[33%] h-[550px] bg-[url(../../assets/How to Create Website in Tailwind css/h3_bn-2.jpg)] bg-cover p-6 flex flex-col items-center pt-15 gap-2 text-white'>
           
           
-c            <div className='h-[250px] w-full bg-[url(../../assets/How to Create Website in Tailwind css/h3_bn-2.jpg)] text-white bg-cover flex flex-col pt-4 gap-2'>
+            <div className='h-[250px] w-full bg-[url(../../assets/How to Create Website in Tailwind css/h3_bn-2.jpg)] text-white bg-cover flex flex-col pt-4 gap-2'>
               <h3 className='text-3xl'>best selling</h3>
               <p className='pt-20'>smooth & creamy <br /> Lorem, ipsum dolor. </p> 
             </div>
@@ -179,6 +178,16 @@ c            <div className='h-[250px] w-full bg-[url(../../assets/How to Create
             </div>
 
           </div>
+
+        </section>
+
+
+         {/* popular flavor section */}
+
+
+        <section id='popular'>
+          <h3 className='section_heading'>popular flavor </h3>
+          {/* 1:20:00 vid */}
 
         </section>
       </>
