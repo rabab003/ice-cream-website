@@ -12,6 +12,12 @@ import slideImage03 from "../../assets/How to Create Website in Tailwind css/h3_
 import slideImage04 from "../../assets/How to Create Website in Tailwind css/h3_bn-4.jpg"
 import slideImage05 from "../../assets/How to Create Website in Tailwind css/h3_cat-5.jpg"
 import slideImage06 from "../../assets/How to Create Website in Tailwind css/h3_cat-7.jpg"
+
+import avatar1 from "../../assets/How to Create Website in Tailwind css/avatar-1.jpg"
+import avatar2 from "../../assets/How to Create Website in Tailwind css/avatar-2.jpg"
+import avatar3 from "../../assets/How to Create Website in Tailwind css/avatar-4.jpg"
+import avatar4 from "../../assets/How to Create Website in Tailwind css/avatar-6.jpg"
+
 import {Swiper, SwiperSlide} from 'swiper';
 import "swiper/css";
 import { Autoplay } from 'swiper/modules';
@@ -181,9 +187,7 @@ export default function index() {
 
         </section>
 
-
          {/* popular flavor section */}
-
 
         <section id='popular'>
           <h3 className='section_heading'>popular flavor </h3>
@@ -368,15 +372,371 @@ export default function index() {
 
 
           {/* grid wrapper */}
-          <div>
+          <div className='mt-30 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
             {/* gridCard */}
-            <div>
-              {/* grids */}
-              <div className=''></div>
-              <div className=''></div>
+            <div className='w-full flex flex-col gap-2 relative card'>
+              {/* grid image */}
+              <div className='w-full'>
+                <img src={slideImage03} alt="" />
+
+                <div className='absolute top-5 md:flex flex-col gap-2 right-5 hidden icons-card'>
+                  <i className='ri-heart-line'></i>
+                  <i className='ri-shuffle-line icon-card'></i>
+                  <i className='ri-eye-line icon-card'></i>
+
+                </div>
+              </div>
+              {/* grid-card-content */}
+              <div className='flex flex-col gap-2 items-center'>
+                <div>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                </div>
+                <h2 className='text-lg font-bold text-center text-red-400'>Chocolate fudge browing</h2>
+                <span>$7.50</span>
+              </div>
+            </div>
+            {/* gridCard */}
+            <div className='w-full flex flex-col gap-2 relative card'>
+              {/* grid image */}
+              <div className='w-full'>
+                <img src={slideImage03} alt="" />
+
+                <div className='absolute top-5 md:flex flex-col gap-2 right-5 hidden icons-card'>
+                  <i className='ri-heart-line'></i>
+                  <i className='ri-shuffle-line icon-card'></i>
+                  <i className='ri-eye-line icon-card'></i>
+
+                </div>
+              </div>
+              {/* grid-card-content */}
+              <div className='flex flex-col gap-2 items-center'>
+                <div>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                </div>
+                <h2 className='text-lg font-bold text-center text-red-400'>Chocolate fudge browing</h2>
+                <span>$7.50</span>
+              </div>
+            </div>
+            {/* gridCard */}
+            <div className='w-full flex flex-col gap-2 relative card'>
+              {/* grid image */}
+              <div className='w-full'>
+                <img src={slideImage03} alt="" />
+
+                <div className='absolute top-5 md:flex flex-col gap-2 right-5 hidden icons-card'>
+                  <i className='ri-heart-line'></i>
+                  <i className='ri-shuffle-line icon-card'></i>
+                  <i className='ri-eye-line icon-card'></i>
+
+                </div>
+              </div>
+              {/* grid-card-content */}
+              <div className='flex flex-col gap-2 items-center'>
+                <div>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                </div>
+                <h2 className='text-lg font-bold text-center text-red-400'>Chocolate fudge browing</h2>
+                <span>$7.50</span>
+              </div>
+            </div>
+            {/* gridCard */}
+            <div className='w-full flex flex-col gap-2 relative card'>
+              {/* grid image */}
+              <div className='w-full'>
+                <img src={slideImage03} alt="" />
+
+                <div className='absolute top-5 md:flex flex-col gap-2 right-5 hidden icons-card'>
+                  <i className='ri-heart-line'></i>
+                  <i className='ri-shuffle-line icon-card'></i>
+                  <i className='ri-eye-line icon-card'></i>
+
+                </div>
+              </div>
+              {/* grid-card-content */}
+              <div className='flex flex-col gap-2 items-center'>
+                <div>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                </div>
+                <h2 className='text-lg font-bold text-center text-red-400'>Chocolate fudge browing</h2>
+                <span>$7.50</span>
+              </div>
+            </div>
+            {/* gridCard */}
+            <div className='w-full flex flex-col gap-2 relative card'>
+              {/* grid image */}
+              <div className='w-full'>
+                <img src={slideImage03} alt="" />
+
+                <div className='absolute top-5 md:flex flex-col gap-2 right-5 hidden icons-card'>
+                  <i className='ri-heart-line'></i>
+                  <i className='ri-shuffle-line icon-card'></i>
+                  <i className='ri-eye-line icon-card'></i>
+
+                </div>
+              </div>
+              {/* grid-card-content */}
+              <div className='flex flex-col gap-2 items-center'>
+                <div>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                </div>
+                <h2 className='text-lg font-bold text-center text-red-400'>Chocolate fudge browing</h2>
+                <span>$7.50</span>
+              </div>
+            </div>
+            {/* gridCard */}
+            <div className='w-full flex flex-col gap-2 relative card'>
+              {/* grid image */}
+              <div className='w-full'>
+                <img src={slideImage03} alt="" />
+
+                <div className='absolute top-5 md:flex flex-col gap-2 right-5 hidden icons-card'>
+                  <i className='ri-heart-line'></i>
+                  <i className='ri-shuffle-line icon-card'></i>
+                  <i className='ri-eye-line icon-card'></i>
+
+                </div>
+              </div>
+              {/* grid-card-content */}
+              <div className='flex flex-col gap-2 items-center'>
+                <div>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                </div>
+                <h2 className='text-lg font-bold text-center text-red-400'>Chocolate fudge browing</h2>
+                <span>$7.50</span>
+              </div>
+            </div>
+            {/* gridCard */}
+            <div className='w-full flex flex-col gap-2 relative card'>
+              {/* grid image */}
+              <div className='w-full'>
+                <img src={slideImage03} alt="" />
+
+                <div className='absolute top-5 md:flex flex-col gap-2 right-5 hidden icons-card'>
+                  <i className='ri-heart-line'></i>
+                  <i className='ri-shuffle-line icon-card'></i>
+                  <i className='ri-eye-line icon-card'></i>
+
+                </div>
+              </div>
+              {/* grid-card-content */}
+              <div className='flex flex-col gap-2 items-center'>
+                <div>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                </div>
+                <h2 className='text-lg font-bold text-center text-red-400'>Chocolate fudge browing</h2>
+                <span>$7.50</span>
+              </div>
             </div>
           </div>
 
+        </section>
+
+        <section>
+          <div className='flex justify-between flex-wrap gap-5'>
+            <div className='flex items-center gap-4'>
+            <h3 className='text-6xl font-bold text-rose-500'>1.5</h3>
+            <p className='text-gray-400'>milorn liters <br /> <span className='text-2xl font-semibold text-black'>produced over</span></p>
+            </div>
+            <div className='flex items-center gap-4'>
+            <h3 className='text-6xl font-bold text-rose-500'>1.5</h3>
+            <p className='text-gray-400'>milorn liters <br /> <span className='text-2xl font-semibold text-black'>produced over</span></p>
+            </div>
+            <div className='flex items-center gap-4'>
+            <h3 className='text-6xl font-bold text-rose-500'>1.5</h3>
+            <p className='text-gray-400'>milorn liters <br /> <span className='text-2xl font-semibold text-black'>produced over</span></p>
+            </div>
+          </div>
+        </section>
+
+        <section className='bg-orange-100' id='testimonial'>
+
+          <h3 className='section_heading'>Happy Clients Say</h3>
+
+          <Swiper className="w-full mt-[100px]  mb-[100px]" slidesPerView={3} spaceBetween={20} breakpoints={{
+            0:{
+              slidesPerView:1.5
+            },
+            768:{
+              slidesPerView:2.5
+            },
+            1024:{
+              slidesPerView:3.5
+            },
+          }}>
+            <SwiperSlide>
+              <div className='w-full card group p-8 bg-white'>
+                <div className='flex items-star'>
+                  <img src={avatar1} className='w-[50px] rounded-full mb-4' alt="" />
+
+                  <div className=' flex flex-col'>
+                    <div className=''>
+                      <i className='ri-star-fill'></i>
+                      <i className='ri-star-fill'></i>
+                      <i className='ri-star-fill'></i>
+                      <i className='ri-star-line'></i>
+                    </div>
+
+                    <span className=''>sandra farmer</span>
+                  </div>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, eligendi. Voluptas id facere mollitia dolores atque quos repudiandae doloribus cumque labore impedit quisquam quibusdam, explicabo veniam possimus quo fugiat ipsum?</p>
+              </div>
+
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className='w-full card group p-8 bg-white'>
+                <div className='flex items-star'>
+                  <img src={avatar1} className='w-[50px] rounded-full mb-4' alt="" />
+
+                  <div className=' flex flex-col'>
+                    <div className=''>
+                      <i className='ri-star-fill'></i>
+                      <i className='ri-star-fill'></i>
+                      <i className='ri-star-fill'></i>
+                      <i className='ri-star-line'></i>
+                    </div>
+
+                    <span className=''>sandra farmer</span>
+                  </div>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, eligendi. Voluptas id facere mollitia dolores atque quos repudiandae doloribus cumque labore impedit quisquam quibusdam, explicabo veniam possimus quo fugiat ipsum?</p>
+              </div>
+
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className='w-full card group p-8 bg-white'>
+                <div className='flex items-star'>
+                  <img src={avatar1} className='w-[50px] rounded-full mb-4' alt="" />
+
+                  <div className=' flex flex-col'>
+                    <div className=''>
+                      <i className='ri-star-fill'></i>
+                      <i className='ri-star-fill'></i>
+                      <i className='ri-star-fill'></i>
+                      <i className='ri-star-line'></i>
+                    </div>
+
+                    <span className=''>sandra farmer</span>
+                  </div>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, eligendi. Voluptas id facere mollitia dolores atque quos repudiandae doloribus cumque labore impedit quisquam quibusdam, explicabo veniam possimus quo fugiat ipsum?</p>
+              </div>
+
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className='w-full card group p-8 bg-white'>
+                <div className='flex items-star'>
+                  <img src={avatar1} className='w-[50px] rounded-full mb-4' alt="" />
+
+                  <div className=' flex flex-col'>
+                    <div className=''>
+                      <i className='ri-star-fill'></i>
+                      <i className='ri-star-fill'></i>
+                      <i className='ri-star-fill'></i>
+                      <i className='ri-star-line'></i>
+                    </div>
+
+                    <span className=''>sandra farmer</span>
+                  </div>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, eligendi. Voluptas id facere mollitia dolores atque quos repudiandae doloribus cumque labore impedit quisquam quibusdam, explicabo veniam possimus quo fugiat ipsum?</p>
+              </div>
+
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className='w-full card group p-8 bg-white'>
+                <div className='flex items-star'>
+                  <img src={avatar1} className='w-[50px] rounded-full mb-4' alt="" />
+
+                  <div className=' flex flex-col'>
+                    <div className=''>
+                      <i className='ri-star-fill'></i>
+                      <i className='ri-star-fill'></i>
+                      <i className='ri-star-fill'></i>
+                      <i className='ri-star-line'></i>
+                    </div>
+
+                    <span className=''>sandra farmer</span>
+                  </div>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, eligendi. Voluptas id facere mollitia dolores atque quos repudiandae doloribus cumque labore impedit quisquam quibusdam, explicabo veniam possimus quo fugiat ipsum?</p>
+              </div>
+
+            </SwiperSlide>
+          </Swiper>
+
+        </section>
+
+
+        <section className='bg-black text-white flex flex-col gap-5'>
+          <div className='grid grid-cols-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-full gap-5 pb-9'>
+            <div className='flex flex-col gap-2'>
+              <span className='text-2xl text-red-600 font-bold cursor-pointer'>ice parlor</span>
+
+              <div className='flex flex-col mt-4'>
+                <span>Follow Us</span>
+                <p className='text-gray-500 hover:text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos veritatis dignissimos ut est exercitationem autem vitae nemo natus, debitis quisquam sint, fugiat possimus doloremque veniam dolorum, suscipit quaerat facilis consectetur!</p>
+                <div className='flex gap-4 mt-4'>
+                  <i className='text-gray-500 hover:text-white hover:cursor-pointer ri-facebook-line'></i>
+                  <i className='text-gray-500 hover:text-white hover:cursor-pointer ri-twitter-x-line'></i>
+                  <i className='text-gray-500 hover:text-white hover:cursor-pointer ri-youtube-line'></i>
+                  <i className='text-gray-500 hover:text-white hover:cursor-pointer ri-instagram-line'></i>
+                </div>
+              </div>
+          </div>
+            <div className='flex flex-col gap-2'>
+              <h2 className='text-2xl'>useful links</h2>
+              <p className='text-gray-500 hover:text-white cursor-pointer'>About us</p>
+              <p className='text-gray-500 hover:text-white cursor-pointer'>services</p>
+              <p className='text-gray-500 hover:text-white cursor-pointer'>storage</p>
+              <p className='text-gray-500 hover:text-white cursor-pointer'>blog</p>
+              <p className='text-gray-500 hover:text-white cursor-pointer'>shop</p>
+              <p className='text-gray-500 hover:text-white cursor-pointer'>menu</p>
+              <p className='text-gray-500 hover:text-white cursor-pointer'>spe.menu</p>
+            </div>
+            <div className='flex flex-col gap-2'>
+              <h2 className='text-2xl mb-5'>find store</h2>
+              <p className='text-gray-500 hover:text-white'>5606 e speragge , ave, spokan</p>
+              <h2 className=''>call now</h2>
+              <p className='text-gray-500 hover:text-white'>+12367 897 531 276</p>
+              <p className='text-gray-500 hover:text-white'>support@IceParlor.com</p>
+            </div>
+            <div className='flex flex-col gap-2'>
+              <h2>opening hours</h2>
+              <p className='text-gray-500 hover:text-white'>monday - sunday</p>
+              <p className='text-gray-500 hover:text-white'>9:00 am to 11:30 pm </p>
+
+            </div>
+          </div>
+          <p className='text-center pt-8 border-top-1 border-gray-500'>@2025 ICEparlor . All right reserved</p>
         </section>
 
 
