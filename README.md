@@ -1,12 +1,25 @@
-# React + Vite
+# Ice Cream Parlor Website 🍦
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive ice cream parlor website built with **React** and **Tailwind CSS**, featuring interactive sliders, product displays, and a clean UI.
 
-Currently, two official plugins are available:
+## Features ✨
+- Responsive design (mobile, tablet, desktop)
+- Interactive product sliders using **Swiper.js**
+- Category & product sections
+- Testimonials from happy customers
+- Animated UI elements
+- Clean, minimalist design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used 🛠️
+- **React** (Frontend framework)
+- **Tailwind CSS** (Styling)
+- **Swiper.js** (Touch sliders)
+- **React Icons** (Icon library)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Sections 📋
+1. Hero banner with call-to-action
+2. Shop by category (slider)
+3. Popular flavors
+4. Product grid
+5. Client testimonials
+6. Footer with contact info
