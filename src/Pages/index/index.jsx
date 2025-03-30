@@ -188,7 +188,11 @@ export default function index() {
         <section id='popular'>
           <h3 className='section_heading'>popular flavor </h3>
 
-          <Swiper className="mt-20 w-full" slidesPerView={3} spaceBetween={30} breakpoints={{
+          <Swiper className="mt-20 w-full" slidesPerView={3} autoplay={
+            {delay:1500}
+          } 
+          loop={true}
+          spaceBetween={30} breakpoints={{
             0:{
               slidesPerView:1.5,
             },
@@ -199,6 +203,8 @@ export default function index() {
               slidesPerView:3.5,
             },
           }}
+          modules{[Autoplay]}
+
 
           >
             <SwiperSlide>
@@ -354,6 +360,27 @@ export default function index() {
           </Swiper>
 
         </section>
+
+        {/* shop section */}
+
+        <section id='shop'>
+          <h3 className='section_heading'>Eat Ice Cream , Be Happy !</h3>
+
+
+          {/* grid wrapper */}
+          <div>
+            {/* gridCard */}
+            <div>
+              {/* grids */}
+              <div className=''></div>
+              <div className=''></div>
+            </div>
+          </div>
+
+        </section>
+
+
+
       </>
     
   )
